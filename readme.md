@@ -47,9 +47,18 @@ and image. Upload the complete extracted folder, not just the HTML file.
 - **Phone:** 067 216 6641 (`tel:+27672166641`)
 - **WhatsApp:** 067 216 6641 (`https://wa.me/27672166641`)
 
-The email and phone links are in the footer. All WhatsApp buttons, service
-links, metadata, and accessibility labels use the updated number. WhatsApp
-links use South Africa's country code, `27`, without the local leading `0`.
+The email and phone links are in the footer. The floating button is the
+only WhatsApp link on desktop and mobile; it uses South Africa's country
+code, `27`, without the local leading `0`.
+
+### Calls to action
+
+- Navigation: **Get a quote today** opens a pre-filled quote-request email to
+  `kajengodavids@gmail.com`.
+- Landing page: **Explore our services** is the only hero button, with the
+  same full label on desktop and mobile.
+- WhatsApp: only the floating button; there are no WhatsApp links in the
+  navigation, hero, service cards, CTA band, or footer.
 
 ## Preview
 
@@ -81,8 +90,8 @@ real hot-tub photo is supplied (see the `HOT-TUB CARD IMAGE` comment in
 ## Editing guide
 
 ### WhatsApp number
-Displayed everywhere as **067 216 6641**; all links use the international
-format: `https://wa.me/27672166641?text=...`.
+The phone number is displayed as **067 216 6641**. The single floating
+WhatsApp link uses `https://wa.me/27672166641?text=...`.
 To change it, search & replace `27672166641` (links) and `067 216 6641`
 (displayed text) in `index.html`.
 

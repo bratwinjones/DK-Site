@@ -8,8 +8,9 @@
   "use strict";
 
   /* ---------- CONFIG ----------
-     WhatsApp: displayed number is 067 216 6641; the wa.me link
-     must use the international format 27672166641 (see index.html). */
+     The floating button is the only WhatsApp link. It uses the
+     international number 27672166641 (local: 067 216 6641).
+     The navigation quote button opens an email request (see index.html). */
   var REDUCED = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   /* ---------- Header: mobile nav toggle ---------- */
