@@ -1,5 +1,5 @@
 /* ============================================================
-   DK — Sauna & Hot-Tub Studio
+   DK — Sauna And Jacuzzi
    Behaviour: mobile nav, header state, scrollspy, reveal
    animations, animated stats, gallery lightbox.
    No dependencies.

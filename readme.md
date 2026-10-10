@@ -1,4 +1,4 @@
-# DK — Sauna & Hot-Tub Studio Website
+# DK — Sauna And Jacuzzi Website
 
 Static, dependency-free site (HTML + CSS + vanilla JS). Mobile-first, accessible, fast.
 
@@ -40,6 +40,15 @@ a custom domain.
 
 The ZIP has `index.html` at its root and includes every stylesheet, script,
 and image. Upload the complete extracted folder, not just the HTML file.
+
+## Branding
+
+- Logo: **DK**, a plain gold text wordmark with no box, border, background,
+  padding, or shadow.
+- Tagline: **Sauna And Jacuzzi**, shown beneath the logo in the header and
+  footer on both mobile and desktop. It is not hidden in the hamburger layout.
+- The browser favicon uses the same unboxed DK lettering on a transparent
+  background. There is no separate boxed DK badge over the About image.
 
 ## Contact details
 
