@@ -77,6 +77,8 @@ a { color: var(--gold-deep); }
 .btn:active { transform: translateY(0); }
 .btn-gold { background: var(--gold); color: var(--dark); box-shadow: 0 8px 22px rgba(201, 162, 74, .35); }
 .btn-gold:hover { background: var(--gold-soft); box-shadow: 0 12px 28px rgba(201, 162, 74, .45); }
+.btn-outline-gold { background: rgba(20, 16, 12, .35); color: var(--gold-soft); border-color: var(--gold); }
+.btn-outline-gold:hover { background: var(--gold); color: var(--dark); }
 .wa-icon { width: 1.25em; height: 1.25em; flex: none; }
 
 /* ---------- Header ---------- */
@@ -143,9 +145,10 @@ a { color: var(--gold-deep); }
 .hero .eyebrow { color: var(--gold-soft); }
 .hero h1 { color: #fff; text-wrap: balance; }
 .hero-lede { color: #ded4c6; font-size: clamp(1rem, 2.4vw, 1.15rem); max-width: 46ch; margin-bottom: 2rem; }
-/* One content-sized services CTA on every screen size. */
+/* Desktop keeps one services CTA; mobile adds an adjacent quote CTA. */
 .hero-cta { display: flex; }
 .hero-cta .btn { flex: 0 1 auto; min-width: 0; padding-inline: 1.2rem; }
+.hero-quote { display: none; }
 .scroll-hint { position: absolute; left: 50%; bottom: 22px; transform: translateX(-50%); z-index: 1; width: 26px; height: 42px; border-radius: 14px; border: 2px solid rgba(255, 255, 255, .5); }
 .scroll-hint span { position: absolute; left: 50%; top: 8px; width: 4px; height: 8px; margin-left: -2px; border-radius: 2px; background: var(--gold-soft); animation: drip 2.2s ease-in-out infinite; }
 @keyframes drip { 0% { transform: translateY(0); opacity: 1; } 70% { transform: translateY(14px); opacity: 0; } 100% { opacity: 0; } }
@@ -287,6 +290,15 @@ a { color: var(--gold-deep); }
 .reveal.visible { opacity: 1; transform: none; }
 
 /* ---------- Breakpoints ---------- */
+/* Use the same mobile layout range as the hamburger navigation. */
+@media (max-width: 859px) {
+  .nav-quote { display: none; }
+  .hero-quote { display: inline-flex; }
+  .hero-cta { gap: .6rem; align-items: stretch; max-width: 440px; }
+  .hero-cta .btn { flex: 1 1 0; white-space: normal; text-align: center; }
+  .hero-cta .hero-services { flex-grow: 1.4; }
+}
+
 @media (max-width: 540px) {
   .hero-cta .btn { padding-inline: .9rem; font-size: .9rem; gap: .4rem; }
   .stats { gap: .6rem; }

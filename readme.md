@@ -53,10 +53,13 @@ code, `27`, without the local leading `0`.
 
 ### Calls to action
 
-- Navigation: **Get a quote today** opens a pre-filled quote-request email to
-  `kajengodavids@gmail.com`.
-- Landing page: **Explore our services** is the only hero button, with the
-  same full label on desktop and mobile.
+- Desktop navigation: **Get a quote today** opens a pre-filled quote-request
+  email to `kajengodavids@gmail.com`.
+- Desktop landing page: **Explore our services** remains the only hero button.
+- Mobile (below 860px): **Request quote** appears beside **Explore our services**
+  in the hero and opens the same pre-filled email. The quote button is hidden
+  from the hamburger menu. Both labels remain complete and can wrap on narrow
+  screens so the buttons stay side by side without clipping.
 - WhatsApp: only the floating button; there are no WhatsApp links in the
   navigation, hero, service cards, CTA band, or footer.
 
