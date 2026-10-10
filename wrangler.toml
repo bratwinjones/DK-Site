@@ -1,0 +1,5 @@
+# Cloudflare Pages serves this static site from the repository root.
+# Keep the output directory here so dashboard copy/paste errors cannot change it.
+name = "dk-site"
+pages_build_output_dir = "."
+compatibility_date = "2026-10-10"

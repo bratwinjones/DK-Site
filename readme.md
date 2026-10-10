@@ -2,6 +2,34 @@
 
 Static, dependency-free site (HTML + CSS + vanilla JS). Mobile-first, accessible, fast.
 
+## Deploy to Cloudflare Pages
+
+The complete site is on the `arena/e3ed20da-dk-site` branch. Connect
+`bratwinjones/DK-Site` through **Workers & Pages > Create application > Pages >
+Connect to Git**, select the `dk-site` project name, and use these settings:
+
+| Setting | Value |
+| --- | --- |
+| Production branch | `arena/e3ed20da-dk-site` |
+| Framework preset | `None` |
+| Build command | `exit 0` |
+| Build output directory | `.` |
+| Root directory | Leave empty |
+| Environment variables | None needed |
+
+Copy only the value in each field. The output directory is exactly one dot;
+do not include explanatory text or quotation marks.
+
+`wrangler.toml` sets `pages_build_output_dir` to the repository root and is the
+source of truth for that setting during Pages deployments. There is no build
+step, backend, or Functions directory required. After connecting GitHub,
+pushes to the production branch trigger automatic deployments.
+
+If a deployment fails with **build output directory not found**, check the
+output-directory value and that Cloudflare is deploying the updated branch.
+Wait for a successful deployment before testing its Pages address or attaching
+a custom domain.
+
 ## Deploy to Netlify
 
 1. Download `DK-Site-Netlify.zip` and extract it into a folder.
