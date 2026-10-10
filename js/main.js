@@ -10,7 +10,7 @@
   /* ---------- CONFIG ----------
      The floating button is the only WhatsApp link. It uses the
      international number 27672166641 (local: 067 216 6641).
-     Quote buttons open an email request: desktop navigation and mobile hero (see index.html). */
+     Quote buttons open request-quote.html, which submits to FormSubmit for email delivery. */
   var REDUCED = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   /* ---------- Header: mobile nav toggle ---------- */
