@@ -1,4 +1,4 @@
-# DK — Sauna And Jacuzzi Website
+# DK Excellency — Sauna And Jacuzzi Website
 
 Static, dependency-free site (HTML + CSS + vanilla JS). Mobile-first, accessible, fast.
 
@@ -43,12 +43,12 @@ its root and includes every stylesheet, script and image. Upload the complete ex
 
 ## Branding
 
-- Logo: **DK**, a plain gold text wordmark with no box, border, background,
+- Logo: **DK Excellency**, a plain gold text wordmark with no box, border, background,
   padding, or shadow.
 - Tagline: **Sauna And Jacuzzi**, shown beneath the logo in the header and
   footer on both mobile and desktop. It is not hidden in the hamburger layout.
-- The browser favicon uses the same unboxed DK lettering on a transparent
-  background. There is no separate boxed DK badge over the About image.
+- The browser favicon keeps the unboxed **DK** initials on a transparent
+  background. There is no separate boxed logo badge over the About image.
 
 ## Contact details
 
@@ -93,7 +93,7 @@ after the recipient's form is activated.
   the frontend never displays a success message merely because Submit was
   clicked. The thank-you page acknowledges submission, not inbox delivery.
 - Client details are sent in the POST body, not in a URL or local storage.
-  The form explains that FormSubmit processes the details so DK can respond.
+  The form explains that FormSubmit processes the details so DK Excellency can respond.
 - No passwords, API keys, Cloudflare Functions or environment variables are
   required. An automatic customer-email acknowledgement is not configured.
 
@@ -147,7 +147,7 @@ dk-website/
         └── full/g01–g17.jpg    # Lightbox images (max 1600w)
 ```
 
-All photography is real DK project work (Cape Town & Western Cape), except
+All photography is real DK Excellency project work (Cape Town & Western Cape), except
 `assets/img/services/hot-tub-installation.jpg`, which is a placeholder until a
 real hot-tub photo is supplied (see the `HOT-TUB CARD IMAGE` comment in
 `index.html`).

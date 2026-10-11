@@ -1,4 +1,4 @@
-/* DK — quote request form. FormSubmit handles delivery and spam verification. */
+/* DK Excellency — quote request form. FormSubmit handles delivery and spam verification. */
 (function () {
   "use strict";
 
@@ -88,7 +88,7 @@
       status.hidden = false;
       status.dataset.state = "error";
       status.setAttribute("role", "alert");
-      status.textContent = "No request was sent. Your details are still here. Please contact DK if this problem continues.";
+      status.textContent = "No request was sent. Your details are still here. Please contact DK Excellency if this problem continues.";
       return;
     }
 

@@ -1,5 +1,5 @@
 /* ============================================================
-   DK — Sauna And Jacuzzi
+   DK Excellency — Sauna And Jacuzzi
    Behaviour: mobile nav, header state, scrollspy, reveal
    animations, animated stats, gallery lightbox.
    No dependencies.

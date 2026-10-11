@@ -1,5 +1,5 @@
 /* ============================================================
-   DK — Sauna And Jacuzzi
+   DK Excellency — Sauna And Jacuzzi
    Mobile-first stylesheet. Palette: espresso / paper / gold.
    v2: service-card photos, inline hero CTAs, fitted mobile hero.
    ============================================================ */
@@ -95,8 +95,8 @@ a { color: var(--gold-deep); }
   gap: .2rem; flex-shrink: 0; text-decoration: none;
 }
 .brand-mark {
-  display: block; font-family: var(--serif); font-size: 2rem;
-  font-weight: 700; letter-spacing: .06em; line-height: 1; color: var(--gold);
+  display: block; font-family: var(--serif); font-size: clamp(1.25rem, 3.5vw, 2rem);
+  font-weight: 700; letter-spacing: .04em; line-height: 1; color: var(--gold); white-space: nowrap;
   border: 0; border-radius: 0; padding: 0; background: none; box-shadow: none;
 }
 .brand-sub {
